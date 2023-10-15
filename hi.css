@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    
+}
+#header{
+    height: 47px;
+    background-color:#000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+
+    
+}
+#slider{
+    margin-top: 47px;
+    
+
+}
+#footer{
+
+}
+#menu li{
+    display: inline-block;
+    position: relative;
+/*  Sap xep relative */
+    
+}
+#menu .lone {
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 0 10px #ccc;
+    display: none;
+    top: 100%;
+    left: 0;
+
+}
+/*  The cap 1  */
+#menu > li > a {
+    color: #fff;
+    text-transform:uppercase ;
+/*  Khong the a cap 2 khong bi anh huong */
+}
+
+#menu .lone a {
+    color: black;
+    padding: 0 15px;
+    line-height: 36px;
+
+}
+
+#menu li a{
+    text-decoration: none;
+    line-height: 47px;
+    padding: 0 24px;
+    display: block;
+}
+#menu li:hover  {
+    color: #000;
+    background-color: #ccc;
+}
+#menu > li:hover >a{
+    color: #000;
+    background-color: #ccc;
+}
+#menu .lone li{
+    width: 100%;
+}
+#menu ,.lone {
+    list-style: none;
+}
+#menu li:hover .lone{
+    display: block;
+}
+#menu .list-two {
+    font-size: 14px;
+}
+#header .list-three {
+    font-size: 14px;
+    color: #fff;
+}
+#menu {
+    display: inline-block;
+}
+#header .lookingfor{
+    float: right;
+    line-height: 47px;
+    padding: 0 24px;
+}
+#header .lookingfor:hover{
+    color: #000;
+    background-color: red;
+    cursor: pointer;
+}
+.content-section{
+    text-align: center;
+    padding: 64px 16px;
+    color: red;
+
+}
+.content{
+   
+    
+}
+.anh{
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+    
+}
+
+.text{
+    margin-left: 30%;
+    display: flex;
+}
+#gioithieu{
+    list-style: none;
+
+}
+.anh1{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.noidung{
+    font-size: 20px;
+    color: white ;
+
+
+}
+
+#gioithieu li {
+    margin-bottom: 30px;
+}
+.profile{
+    background-color: rgb(3, 51, 68);
+    padding: 64px 16px;
+    font-family: monospace;
+}
+.friendzone{
+    padding: 64px 16px;
+    color: red;
+    text-align: center;
+    
+}
+#banbe{
+    justify-content: space-evenly;
+    display: flex;
+    margin: 0 100px;
+    
+}    
+
+.anh2{
+    width: 250px;
+    height: 250px;
+    
+}
+.friend {
+    padding: 5px;
+    border: solid 1px red;
+}
+
+.anh2:hover{opacity:0.6} 
+#truonghoc {
+    padding: 64px 16px;
+    color: red;
+    text-align: center;
+}
+.truong {
+    height: 500px;
+    width: 500px;
+    margin: 0 100px;
+}
+
+#end {
+    height: 47px;
+    background-color:#000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: unset;
+    color: white;
+    line-height: 47px;
+    text-align: center;
+    margin-top: 50px;
+}
