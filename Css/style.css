@@ -113,3 +113,8 @@ body {
 .media a:hover::before {
     width: 100%;
 }
+@media screen and (max-width: 667px) {
+    .slider h1 {
+        font-size: 35px;
+    }
+  }
