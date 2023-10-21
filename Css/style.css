@@ -131,30 +131,88 @@ body {
         width: 0;
     }
   }
-@media (max-width:480px) {
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-    .slider {
-        height: 75vh;
-    }
-    .slider h1 {
-        font-size: 30px;
-        font-weight: 480;
-        position: relative;
-        line-height: 1.3;
-    }
-    .header { 
-      position: relative;
-    }
-    .slider h2 {
-        font-size: 23px;
-        line-height: 1.4;
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
   }
-    .slider p {
-        font-size: 17px;
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .header{
+        padding: 15px 10%;
+    }
+    .slider {
+        padding: 60vh 10%;
+    }
+    .slider h1{
+        font-size: 25px;
+        margin-top: 100px;
+    }
+    .slider h2{
+        font-size: 20px;
         line-height: 1.5;
+
     }
-    .media { 
-        height: 0;
-        bottom: 1px;
+    .slider p{
+        font-size: 16px;
     }
-}
+    .media{
+       position: relative;
+       margin-top: 60px;
+    }
+  }
+    /* CSS */
