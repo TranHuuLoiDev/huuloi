@@ -192,27 +192,6 @@ body {
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    .header{
-        padding: 15px 10%;
-    }
-    .slider {
-        padding: 60vh 10%;
-    }
-    .slider h1{
-        font-size: 25px;
-        margin-top: 100px;
-    }
-    .slider h2{
-        font-size: 20px;
-        line-height: 1.5;
-
-    }
-    .slider p{
-        font-size: 16px;
-    }
-    .media{
-       position: relative;
-       margin-top: 60px;
-    }
+   
   }
     /* CSS */
