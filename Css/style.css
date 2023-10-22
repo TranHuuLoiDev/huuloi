@@ -192,6 +192,26 @@ body {
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-   
-  }
-    /* CSS */
+   /* CSS */
+   .slider-home{
+    margin-top: 15px;
+   }
+   .slider h1 {
+    font-size: 25px;
+   }
+   .slider h2 {
+    font-size: 17px;
+    line-height: 1.8;
+   }
+   .slider p {
+    font-size: 15px;
+   }
+   .media {
+    bottom: 30px;
+   }
+   .media a {
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+   }
+}
